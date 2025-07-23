@@ -193,3 +193,77 @@ main {
 .content a {
   text-decoration: underline;
 }
+/* footer */
+footer {
+  margin-top: 40px;
+}
+/* newsletter */
+.newsletter {
+  height: 520px;
+  background: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.news_overlay {
+  background: #11111146;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.field {
+  text-align: center;
+}
+.field h1 {
+  color: white;
+  font-family: "Noto Serif";
+}
+.input {
+  width: 830px;
+  margin: 0 auto;
+}
+input[type="email"] {
+  background-color: white;
+  width: 89%;
+  padding: 10px;
+  outline: none;
+}
+input[type="submit"] {
+  background: var(--orange);
+  margin-left: -10px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+input[type="submit"]:hover {
+  background: var(--semiblack);
+  transition: 0.2s ease;
+}
+/* footer nav */
+.footer_nav {
+  width: 1120px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.nav1 ul li,
+.nav2 ul li {
+  margin-top: 12px;
+}
+.logo_sec img {
+  margin-bottom: 20px;
+}
+.social {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+.social img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}

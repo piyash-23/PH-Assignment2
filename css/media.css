@@ -72,6 +72,28 @@
   .deals_para {
     width: 80%;
   }
+  .field h1 {
+    font-size: 20px;
+  }
+  footer {
+    width: 100%;
+  }
+  .input {
+    width: 350px;
+    display: flex;
+  }
+  input[type="submit"] {
+    margin-left: 0px;
+  }
+  /* nav */
+  .footer_nav {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px 20px;
+  }
+  .logo_sec {
+    width: 50%;
+  }
 }
 /* medium device */
 @media (min-width: 576px) and (max-width: 768px) {
@@ -106,6 +128,15 @@
   #badge {
     display: none;
   }
+  .input {
+    width: 600px;
+    display: flex;
+  }
+  .footer_nav {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 20px;
+  }
 }
 /* large device */
 
@@ -126,5 +157,10 @@
   #badge {
     top: -20%;
     right: -10%;
+  }
+  .footer_nav {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 20px;
   }
 }

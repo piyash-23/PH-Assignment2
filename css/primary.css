@@ -86,7 +86,8 @@ main {
 }
 /* products */
 .products {
-  margin-top: 60px;
+  margin-top: 70px;
+  margin-bottom: 150px;
 }
 .title h1 {
   font-family: "Noto Serif";
@@ -114,4 +115,40 @@ main {
   grid-template-columns: repeat(4, 270px);
   justify-content: center;
   column-gap: 20px;
+}
+/* plants lovers section */
+.lovers {
+  height: 580px;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.features h1 {
+  font-family: "Noto Serif";
+  font-weight: 600;
+}
+.store {
+  flex: 540px;
+  position: relative;
+}
+#storeImg {
+  width: 90%;
+  margin: 0 auto;
+}
+.features {
+  flex: 540px;
+}
+.features h1 {
+  color: var(--semiblack);
+}
+.features ul li {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#badge {
+  position: absolute;
+  width: 50%;
+  top: -20%;
+  right: -15%;
 }

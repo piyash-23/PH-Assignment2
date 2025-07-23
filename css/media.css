@@ -26,12 +26,36 @@
     font-size: 14px;
   }
   /* flower box */
+  .products {
+    margin-bottom: 0px;
+  }
   .flowerBox {
     padding: 0px 10px;
     grid-template-columns: repeat(2, 1fr);
   }
   .title h1 {
     font-size: 24px;
+  }
+  /* lover section */
+  .lovers {
+    height: auto;
+    flex-direction: column;
+  }
+  .store {
+    flex: 100%;
+  }
+  #storeImg {
+    width: 95%;
+  }
+  .features {
+    margin-top: 10px;
+    width: 95%;
+  }
+  .features h1 {
+    font-size: 24px;
+  }
+  #badge {
+    display: none;
   }
 }
 /* medium device */
@@ -46,6 +70,27 @@
     padding: 0px 10px;
     grid-template-columns: repeat(3, 1fr);
   }
+  /* lover section */
+  .lovers {
+    height: auto;
+    flex-direction: column;
+  }
+  .store {
+    flex: 100%;
+  }
+  #storeImg {
+    width: 95%;
+  }
+  .features {
+    margin-top: 10px;
+    width: 95%;
+  }
+  .features h1 {
+    font-size: 36px;
+  }
+  #badge {
+    display: none;
+  }
 }
 /* large device */
 
@@ -59,5 +104,12 @@
   .flowerBox {
     padding: 0px 10px;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .features h1 {
+    font-size: 42px;
+  }
+  #badge {
+    top: -20%;
+    right: -10%;
   }
 }

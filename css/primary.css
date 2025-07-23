@@ -152,3 +152,44 @@ main {
   top: -20%;
   right: -15%;
 }
+/* deals section */
+.deal_grid {
+  justify-content: center;
+}
+.grid-1 {
+  background: url(../assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  border-radius: 1rem;
+}
+.grid-2 {
+  background: url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+.grid-3 {
+  background: url(../assets/deal-ana.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  border-radius: 1rem;
+}
+.overlay {
+  background-color: #11111159;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: 600;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  text-align: center;
+}
+.content a {
+  text-decoration: underline;
+}

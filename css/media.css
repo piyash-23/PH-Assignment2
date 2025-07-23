@@ -57,6 +57,18 @@
   #badge {
     display: none;
   }
+  /* deal grid */
+  .deal_grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 40px;
+  }
+  .grid-1,
+  .grid-2,
+  .grid-3 {
+    width: 361px;
+    height: 177px;
+    margin: 0 auto;
+  }
 }
 /* medium device */
 @media (min-width: 576px) and (max-width: 768px) {

@@ -8,6 +8,14 @@
   --black_50: rgba(0, 0, 0, 0.5);
   --link: #8987a1;
 }
+/* primary */
+.mango {
+  color: var(--orange);
+}
+.para {
+  color: var(--link);
+  font-family: "Inter";
+}
 /* body */
 body {
   max-width: 1440px;
@@ -69,16 +77,41 @@ main {
   font-weight: 700;
   margin-bottom: 15px;
 }
-.flowerDesc h1 span {
-  color: var(--orange);
-}
-.flowerDesc p {
-  font-family: "Inter";
-  color: var(--link);
-}
+
 .flowerImg {
   flex: 50%;
 }
 .flowerImg img {
   width: 576px;
+}
+/* products */
+.products {
+  margin-top: 60px;
+}
+.title h1 {
+  font-family: "Noto Serif";
+}
+.pro_title,
+.price,
+.addto {
+  font-family: "Inter";
+  margin-top: 5px;
+}
+.addto {
+  width: 100%;
+  background: var(--orange);
+  color: white;
+  padding: 10px 14px;
+  display: block;
+  cursor: pointer;
+}
+.addto:hover {
+  background: var(--semiblack);
+  transition: 0.3s ease;
+}
+.flowerBox {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  justify-content: center;
+  column-gap: 20px;
 }

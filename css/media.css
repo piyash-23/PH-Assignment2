@@ -22,7 +22,42 @@
   .flowerDesc h1 {
     font-size: 24px;
   }
-  .flowerDesc p {
+  .para {
     font-size: 14px;
+  }
+  /* flower box */
+  .flowerBox {
+    padding: 0px 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .title h1 {
+    font-size: 24px;
+  }
+}
+/* medium device */
+@media (min-width: 576px) and (max-width: 768px) {
+  .hero {
+    padding: 0px 10px;
+  }
+  .flowerDesc h1 {
+    font-size: 40px;
+  }
+  .flowerBox {
+    padding: 0px 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* large device */
+
+@media (min-width: 786px) and (max-width: 1024px) {
+  .flowerDesc h1 {
+    font-size: 40px;
+  }
+  .hero {
+    padding: 0px 10px;
+  }
+  .flowerBox {
+    padding: 0px 10px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }

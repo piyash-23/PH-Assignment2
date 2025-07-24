@@ -11,6 +11,7 @@
     height: auto;
     gap: 30px;
   }
+
   .flowerImg {
     order: 1;
     margin-bottom: 20px;
@@ -33,6 +34,10 @@
     padding: 0px 10px;
     grid-template-columns: repeat(2, 1fr);
   }
+  .flowerP:nth-child(7),
+  .flowerP:nth-child(8) {
+    display: none;
+  }
   .title h1 {
     font-size: 24px;
   }
@@ -40,6 +45,7 @@
   .lovers {
     height: auto;
     flex-direction: column;
+    margin-bottom: 0px;
   }
   .store {
     flex: 100%;
@@ -140,7 +146,7 @@
 }
 /* large device */
 
-@media (min-width: 786px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .flowerDesc h1 {
     font-size: 40px;
   }

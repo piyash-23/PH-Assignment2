@@ -128,6 +128,17 @@
     margin-top: 10px;
     width: 95%;
   }
+  .deal_grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 40px;
+  }
+  .grid-1,
+  .grid-2,
+  .grid-3 {
+    width: 400px;
+    height: 177px;
+    margin: 0 auto;
+  }
   .features h1 {
     font-size: 36px;
   }
